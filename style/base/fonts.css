@@ -1,0 +1,10 @@
+
+body, input, textarea {
+    font-family: Optima, "Lantinghei TC";
+    color: white;
+    font-weight: 200;
+}
+
+input, textarea {
+    background: transparent;
+}

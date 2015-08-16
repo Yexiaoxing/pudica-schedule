@@ -1,27 +1,44 @@
 {
   "name": "pudica-schedule",
-  "version": "0.0.0",
-  "description": "Note: I reinstalled may laptop and now I can't find the old code, I even forgot what's the difference between Lithops. Hopefully updating a file to the repo will show the descreptions again.",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A little schedule.",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jiyinyiyong/pudica-schedule.git"
-  },
-  "keywords": [
-    "schedule"
-  ],
   "author": "jiyinyiyong",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jiyinyiyong/pudica-schedule/issues"
-  },
-  "homepage": "https://github.com/jiyinyiyong/pudica-schedule",
+  "keywords": [
+    "workflow"
+  ],
   "devDependencies": {
-    "mission": "0.0.6",
-    "shelljs": "^0.3.0"
+    "cirru-script": "^0.2.3",
+    "cirru-script-loader": "^0.1.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "rsyncwrapper": "^0.4.2",
+    "run-sequence": "^1.0.2",
+    "stir-template": "^0.1.4",
+    "webpack": "^1.8.5",
+    "webpack-dev-server": "^1.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "classnames": "^2.1.1",
+    "events": "^1.0.2",
+    "flux": "^2.0.3",
+    "immutable": "^3.7.2",
+    "keycode": "^2.1.0",
+    "object-assign": "^2.0.0",
+    "react": "0.13.2",
+    "shortid": "^2.2.2",
+    "timeout-transition-group": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Memkits/pudica-schedule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Memkits/pudica-schedule/issues"
+  },
+  "homepage": "https://github.com/Memkits/pudica-schedule"
 }

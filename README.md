@@ -4,22 +4,23 @@ Pudica Schedule
 
 Demo: http://repo.tiye.me/pudica-schedule/
 
-Dead simple schedule for basic use cases:
+Dead simple schedule for basic usages:
 
-* presss enter to create new one
-* add note and edit
+* press Return and Shift+Return to add task
+* editing
 * sort by dragging
-* archive a note by click
-* don't be ugly
+* archive and revert archiving tasks by clicking
 
-![](http://ww2.sinaimg.cn/bmiddle/62752320tw1egzxlacspwj21540nswjy.jpg)
+### Resources
+
+Icon: https://www.iconfinder.com/icons/175730/leaf_icon#size=32
 
 ### Resouces
 
-Besides React, these two docs helped my a lot:
+Besides React, these docs helped a lot:
 
-https://github.com/danielstocks/react-sortable
-http://csspod.com/archives/html5-drag-and-drop
+* https://github.com/danielstocks/react-sortable
+* http://csspod.com/archives/html5-drag-and-drop
 
 ### License
 
